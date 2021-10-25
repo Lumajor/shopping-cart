@@ -1,0 +1,36 @@
+.picture-container img {
+    height: 70vh;
+    width: 50vh;
+}
+
+.picture-container {
+    text-align: center;
+}
+
+.picture-container img:hover {
+    box-shadow: 0 0 5px 5px rgb(196, 192, 192);
+    transform: translateX(2px);
+    transform: translateY(2px);
+}
+
+.figure-container {
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 30px;
+}
+
+.item-ui {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-ui button{
+    align-self: center;
+    cursor: pointer;
+}
+
+.item-ui input{
+    align-self: center;
+}

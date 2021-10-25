@@ -1,0 +1,29 @@
+.picture-container img {
+    height: 70vh;
+    width: 50vh;
+}
+
+.picture-container img:hover {
+    box-shadow: 0 0 5px 5px rgb(196, 192, 192);
+    transform: translateX(2px);
+    transform: translateY(2px);
+}
+
+.figure-container {
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 30px;
+}
+
+.item-ui-in-cart {
+   text-align: center;
+}
+
+.item-ui-in-cart button{
+    align-self: center;
+    cursor: pointer;
+}
+
+.item-ui-in-cart input{
+    align-self: center;
+}

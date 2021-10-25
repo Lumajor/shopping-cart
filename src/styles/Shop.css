@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+}
+
+.shop-container {
+    height: 80vh;
+    margin: 10px 20px 10px 20px;
+}
+
+.shop-item-container {
+    display: flex;
+    flex-wrap: wrap;
+}
