@@ -22,21 +22,21 @@ function App() {
       id: "shop-item-1",
       text: "t-shirt",
       image: shirt1,
-      price: 12.00,
+      price: 12,
       count: 0
     },
     {
       id: "shop-item-2",
       text: "t-shirt",
       image: shirt2,
-      price: 12.55,
+      price: 13,
       count: 0
     },
     {
       id: "shop-item-3",
       text: "t-shirt",
       image: shirt3,
-      price: 11.25,
+      price: 15,
       count: 0
     }
   ])
