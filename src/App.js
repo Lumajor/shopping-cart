@@ -10,6 +10,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import shirt1 from "./images/shirt1.jpg";
 import shirt2 from "./images/shirt2.jpg";
 import shirt3 from "./images/shirt3.jpg";
+import pants1 from "./images/pants1.jpg";
+import pants2 from "./images/pants2.jpg";
+import pants3 from "./images/pants3.jpg"
 import { findIndex } from "lodash";
 
 function App() {
@@ -20,23 +23,44 @@ function App() {
   const [shopItemInfo, setShopItemInfo] = useState([
     {
       id: "shop-item-1",
-      text: "t-shirt",
+      text: "t-shirt - white",
       image: shirt1,
       price: 12,
       count: 0
     },
     {
       id: "shop-item-2",
-      text: "t-shirt",
+      text: "t-shirt - black",
       image: shirt2,
       price: 13,
       count: 0
     },
     {
       id: "shop-item-3",
-      text: "t-shirt",
+      text: "t-shirt - purple",
       image: shirt3,
       price: 15,
+      count: 0
+    },
+    {
+      id: "shop-item-4",
+      text: "Pants - Black",
+      image: pants1,
+      price: 18,
+      count: 0
+    },
+    {
+      id: "shop-item-5",
+      text: "Pants - Beige",
+      image: pants2,
+      price: 19,
+      count: 0
+    },
+    {
+      id: "shop-item-6",
+      text: "Pants - Gray",
+      image: pants3,
+      price: 18,
       count: 0
     }
   ])

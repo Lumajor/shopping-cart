@@ -17,11 +17,13 @@
 
 .item-ui-in-cart {
    text-align: center;
+   margin-bottom: 45px;
 }
 
 .item-ui-in-cart button{
     align-self: center;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .item-ui-in-cart input{

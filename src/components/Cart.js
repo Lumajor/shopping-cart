@@ -49,14 +49,21 @@ function Cart(props) {
     setShopItemInfo(previousItemInfo);
   }
 
+  const preventScrollOnInput = (e) => {
+    e.target.blur()
+    e.stopPropagation()
+    setTimeout(() => {
+      e.target.focus()
+    }, 0)
+  }
+
   return (
     <div>
-      <h3 className="title">Cart</h3>
       <div className="cart-container">
         <div className="cart-item-container">
           {cart.map((item) => (
             <ShopItemInsideCart item={item} key={item.id} removeFromCart={removeFromCart}
-            editRemoveCount={editRemoveCount}/>
+            editRemoveCount={editRemoveCount} preventScrollOnInput={preventScrollOnInput}/>
           ))}
         </div>
         <div className="cart-checkout-container">

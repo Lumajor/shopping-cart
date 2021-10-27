@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/NavBar.css"
 import { Link }from "react-router-dom"
 
+import cartImage from "../images/cart-icon.png"
+
 function NavBar(props) {
 
     const {purchaseCounter} = props
@@ -18,7 +20,10 @@ function NavBar(props) {
                 <li>Shop</li>
                 </Link>
                 <Link to="/cart">
-                <li>Cart ({purchaseCounter})</li>
+                <div className="cart-nav">
+                  <img src={cartImage} alt="shopping cart icon"/>
+                  <li>Cart ({purchaseCounter})</li>
+                </div>
                 </Link>
             </ul>
         </div>

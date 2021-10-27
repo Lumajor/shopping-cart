@@ -17,6 +17,18 @@
 
 .cart-checkout-container {
     border: solid 1px black;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 40%;
+    right: 0;
     width: 25%;
     text-align: center;
+    padding-bottom: 20px;
+    background-color: rgb(250, 250, 250);;
+    margin-right: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }

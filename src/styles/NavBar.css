@@ -17,5 +17,24 @@
 }
 
 .nav-links li {
-    color: white;
+    color: rgb(238, 234, 234);
+    font-size: 24px;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.nav-links li:hover {
+    text-shadow: 2px 2px 4px rgb(248, 245, 245);
+}
+
+.nav-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.cart-nav {
+    display: flex;
 }
